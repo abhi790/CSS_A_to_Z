@@ -1,0 +1,74 @@
+<!--
+    1. create a heading and set the text color red.
+    2.create a div with id #heading, include CSS using all 3 ways line, style tag and external, and observe priority.
+    3. Add comments to your CSS class, 
+    4. create a div, paragraph and heading and use id selector, element selector and class selector for them.
+    5. create two divs with id first and second and define for both using group selector  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 Practice</title>
+    <style>
+        /* Universal selector */
+        * {
+            color : green;
+        }
+        /* Element selector */
+        h1{
+            color : red;
+        }
+        /* Class selector */
+        .container{
+            color : brown;
+        }
+        /* Id selector */
+        #first{
+            color : darkred;
+        }
+        /* Group selectors */
+        .second, .third, .fourth, .null {
+            color : orange;
+        }
+        /* Descendent selector */
+        div .decendent p{
+            color : darkmagenta;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>With this level one we have learned how to apply CSS to our html code. Using different selector in different order</h1>
+    <hr>
+    <!-- Example of class selector targetting-->
+    <div >
+        <p class="container">This paragraph is colored using class selector to brown</p>    
+    </div>
+    <hr>
+    <!-- Example of id selector targetting-->
+    <div >
+        <p id="first">This paragraph is colored using id selector to darkred</p>    
+    </div>
+    <hr>
+    <!-- Example of group selector targetting multiple element at once -->
+    <div class="second">
+        <h2 class="third">Example of group selector targetting multiple element at once. Colored orange</h2>
+        <h3 class="null">Using group selector you can combine any element or id or class by giving commas </h3>
+        <p class="fourth">I am also color to orange using the group selector </p>
+        This is normal text inside div.
+    </div>
+    <hr>
+    <!-- Example of descendent selector targetting multiple elements, id, class at once -->
+    <div >
+        <h3>Using descendent selector we can declare any element or id or class by giving space in between </h3>
+        <div class="decendent">
+            <p>I will be effected using descendent selector(div .decendent p{color : darkmagenta;})</p>
+            <h4>I will remain untouched with the descendent selector</h4>
+        </div>
+        <h3>I will also be remain untouched, I am colored green why? because you have declared universal selector text color as green. By default If I am not targetted any text will be remain green</h5>
+    </div>
+
+</body>
+</html>
