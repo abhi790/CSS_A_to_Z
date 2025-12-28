@@ -1,0 +1,10 @@
+LearningCSS Timestamp
+
+Level 1 : CSS Basics 00:16:00
+Level 2 : Color System & Background 1:19:00
+Level 3 : Test Properties 2:00:00
+Level 4 : Box Model 2:39:00
+Level 5 : Display and Position 03:20:00
+Level 6 : FlexBox, Grid and Media queries 4:23:00
+Level 7 : Animation, Transition & Transform 5:41:00
+Level 8 : Mintra Clone 6:26:00 - 7:48:00
