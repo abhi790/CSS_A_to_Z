@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Level 2 coding practice</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .parent {
+        background-color: aqua;
+      }
+      .box {
+        height: 50px;
+        width: 50px;
+      }
+      #box1 {
+        background-color: yellow;
+      }
+      #box2 {
+        background-color: green;
+      }
+      .container {
+        height: 400px;
+        width: 1000px;
+        border: 2px solid black;
+        background-image: url(amazon-logo.jpg);
+        /* Try to fit the image with box widht heigt and cut the image if requred */
+        /* background-size: contain; */
+        /* background-size:contain, cover, etc */
+        /* Background repeat help to avoid image getting reapted if low resolution and container size is large */
+        /* background-repeat: no-repeat; */
+        /* Default value of background-repeat is repeat */
+        background-repeat: no-repeat;
+        /* background-position: bottom; */
+        /* background-position: top; */
+        background-position: left;
+        /* background-position: right; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Background-Color Property
+            Color System
+            Absolute Units
+            Height & Width Property
+            Background-Image Property
+            Visibility Property -->
+    <!-- For visibility and height width -->
+    <div class="parent">
+      <div id="box1" class="box">Box 1</div>
+      <div id="box2" class="box">Box 2</div>
+    </div>
+
+    <!--  Background-Image -->
+    <div class="container"></div>
+  </body>
+</html>
